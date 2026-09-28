@@ -1,0 +1,111 @@
+{
+  "false_positives": [
+    {
+      "source1_id": "S1-918589311",
+      "source1_name": "670 Union Street Realty",
+      "source1_address": "1669 475, Stephenville, TX",
+      "source1_country": "US",
+      "predicted_candidate_id": "S3-422487378",
+      "predicted_candidate_name": "670 Union Street Realty Inc",
+      "predicted_candidate_address": "1682-D 475, Stephenville, Texas",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-410438409",
+      "source1_name": "Vaman Diagnostics LLP",
+      "source1_address": "New Delhi, Delhi, Prem Nagar, Central Delhi, 2086",
+      "source1_country": "India",
+      "predicted_candidate_id": "S3-794518882",
+      "predicted_candidate_name": "Vaman Diagnostics Overseas L.L.P.",
+      "predicted_candidate_address": "Prem Nagar, New Delhi, Central Delhi, DL",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-807521574",
+      "source1_name": "New Delhi Tech Corporation",
+      "source1_address": "E-5, Lgf Greater Kailash Enclave-I, New Delhi, South Delhi, Delhi",
+      "source1_country": "India",
+      "predicted_candidate_id": "S3-543058410",
+      "predicted_candidate_name": "New Delhi Dyechem Corporation",
+      "predicted_candidate_address": "84, First Floor, Sadar Bazar, Delhi Cantt, New Delhi, DL",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-807521574",
+      "source1_name": "New Delhi Tech Corporation",
+      "source1_address": "E-5, Lgf Greater Kailash Enclave-I, New Delhi, South Delhi, Delhi",
+      "source1_country": "India",
+      "predicted_candidate_id": "S3-520012486",
+      "predicted_candidate_name": "New Delhi Dyechem Corporation",
+      "predicted_candidate_address": "84, First Floor, Sadar Bazar, Delhi Cantt, New Delhi, DL",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-920924798",
+      "source1_name": "Golden Tavern",
+      "source1_address": "815 Triplett Street, Bldg 8, Owensboro, KY",
+      "source1_country": "US",
+      "predicted_candidate_id": "S3-817093711",
+      "predicted_candidate_name": "GOLDEN TAVERN TAVERN",
+      "predicted_candidate_address": "",
+      "error_type": "False Positive (Unjustified Merge)"
+    }
+  ],
+  "false_negatives": [
+    {
+      "source1_id": "S1-369859179",
+      "source1_name": "United & Brothers Center",
+      "source1_address": "C/O Malasiya Brothers, Temple Road, Rishabdeo, Udaipur., Udaipur, Rajasthan",
+      "source1_country": "India",
+      "missed_true_id": "S2-368442166",
+      "missed_name": "Sri United & Brothers C\u00e9nter",
+      "missed_address": "C/O MALASIYA BROTHERS, TEMPLE ROAD, RISHABDEO, UDAIPUR., Rajasthan",
+      "in_retrieval_pool": true,
+      "error_type": "False Negative (Missed Link)"
+    },
+    {
+      "source1_id": "S1-338830003",
+      "source1_name": "Doex LLC",
+      "source1_address": "5421 Lakeside Avenue, Crystal, MN",
+      "source1_country": "US",
+      "missed_true_id": "S3-607853162",
+      "missed_name": "Doex L.L.C. L.L.C.",
+      "missed_address": "",
+      "in_retrieval_pool": true,
+      "error_type": "False Negative (Missed Link)"
+    },
+    {
+      "source1_id": "S1-438047370",
+      "source1_name": "Saidee Arora Bright Currencyshares Inc",
+      "source1_address": "3417 Oxford Street, Midlothian, TX",
+      "source1_country": "US",
+      "missed_true_id": "S2-430134168",
+      "missed_name": "SAIDEEARORABRIGHT.COM",
+      "missed_address": "3417 OXFORD ST, MIDLOTHIAN TOWNSHIP, TX",
+      "in_retrieval_pool": true,
+      "error_type": "False Negative (Missed Link)"
+    },
+    {
+      "source1_id": "S1-774386468",
+      "source1_name": "One Investments Private Limited",
+      "source1_address": "6A, Jesson Streetoff.Woods Road, Chennai 600 002, Chennai 600 002, Chennai, Tamil Nadu",
+      "source1_country": "India",
+      "missed_true_id": "S3-614575586",
+      "missed_name": "Wexfaye d/b/a One Investments Private Limited",
+      "missed_address": "Jesson Streetoff.Woods Road, Chennai 600 002, 6A, Chennai, Chennai 600 002, Tamil Nadu",
+      "in_retrieval_pool": true,
+      "error_type": "False Negative (Missed Link)"
+    },
+    {
+      "source1_id": "S1-774386468",
+      "source1_name": "One Investments Private Limited",
+      "source1_address": "6A, Jesson Streetoff.Woods Road, Chennai 600 002, Chennai 600 002, Chennai, Tamil Nadu",
+      "source1_country": "India",
+      "missed_true_id": "S2-231589654",
+      "missed_name": "\u0b92\u0ba9\u0bcd \u0b87\u0ba9\u0bcd\u0bb5\u0bc6\u0bb8\u0bcd\u0b9f\u0bcd\u0bae\u0bc6\u0ba3\u0bcd\u0b9f\u0bcd\u0bb8\u0bcd \u0baa\u0bbf\u0bb0\u0bc8\u0bb5\u0bc7\u0b9f\u0bcd \u0bb2\u0bbf\u0bae\u0bbf\u0b9f\u0bc6\u0b9f\u0bcd",
+      "missed_address": "6A, JESSON STREETOFF.WOODS ROAD, CHENNAI 600 002, CHENNAI 600 002, CHENNAI, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+      "in_retrieval_pool": true,
+      "error_type": "False Negative (Missed Link)"
+    }
+  ]
+}

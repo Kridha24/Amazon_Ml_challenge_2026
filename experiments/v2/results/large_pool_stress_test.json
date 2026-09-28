@@ -1,0 +1,14 @@
+{
+  "benchmark_label": "Stress Test: 100k Candidate Pool Distractor Evaluation",
+  "searchable_pool_size": 116899,
+  "tuning_queries_count": 2000,
+  "frozen_threshold": 0.54,
+  "candidate_recall_at_50": 0.7594,
+  "average_candidates_per_entity": 27.66,
+  "macro_f05": 0.8738,
+  "macro_precision": 0.9378,
+  "macro_recall": 0.759,
+  "total_false_positives": 119,
+  "runtime_seconds": 2.7,
+  "peak_memory_mb": 1519.86
+}

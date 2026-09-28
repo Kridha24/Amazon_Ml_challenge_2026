@@ -1,0 +1,96 @@
+{
+  "false_positives": [
+    {
+      "source1_id": "S1-918589311",
+      "source1_name": "670 Union Street Realty",
+      "source1_address": "1669 475, Stephenville, TX",
+      "predicted_id": "S3-422487378",
+      "predicted_name": "670 Union Street Realty Inc",
+      "predicted_address": "1682-D 475, Stephenville, Texas",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-410438409",
+      "source1_name": "Vaman Diagnostics LLP",
+      "source1_address": "New Delhi, Delhi, Prem Nagar, Central Delhi, 2086",
+      "predicted_id": "S3-794518882",
+      "predicted_name": "Vaman Diagnostics Overseas L.L.P.",
+      "predicted_address": "Prem Nagar, New Delhi, Central Delhi, DL",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-807521574",
+      "source1_name": "New Delhi Tech Corporation",
+      "source1_address": "E-5, Lgf Greater Kailash Enclave-I, New Delhi, South Delhi, Delhi",
+      "predicted_id": "S3-543058410",
+      "predicted_name": "New Delhi Dyechem Corporation",
+      "predicted_address": "84, First Floor, Sadar Bazar, Delhi Cantt, New Delhi, DL",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-807521574",
+      "source1_name": "New Delhi Tech Corporation",
+      "source1_address": "E-5, Lgf Greater Kailash Enclave-I, New Delhi, South Delhi, Delhi",
+      "predicted_id": "S3-520012486",
+      "predicted_name": "New Delhi Dyechem Corporation",
+      "predicted_address": "84, First Floor, Sadar Bazar, Delhi Cantt, New Delhi, DL",
+      "error_type": "False Positive (Unjustified Merge)"
+    },
+    {
+      "source1_id": "S1-194329084",
+      "source1_name": "Department of Veterans Affairs",
+      "source1_address": "1025 Ashley Lane, TX, Commerce",
+      "predicted_id": "S3-63568063",
+      "predicted_name": "Department of Veterans Affairs LLC",
+      "predicted_address": "",
+      "error_type": "False Positive (Unjustified Merge)"
+    }
+  ],
+  "false_negatives": [
+    {
+      "source1_id": "S1-369859179",
+      "source1_name": "United & Brothers Center",
+      "source1_address": "C/O Malasiya Brothers, Temple Road, Rishabdeo, Udaipur., Udaipur, Rajasthan",
+      "missed_id": "S2-368442166",
+      "missed_name": "Sri United & Brothers C\u00e9nter",
+      "missed_address": "C/O MALASIYA BROTHERS, TEMPLE ROAD, RISHABDEO, UDAIPUR., Rajasthan",
+      "error_type": "False Negative (Missed Match)"
+    },
+    {
+      "source1_id": "S1-338830003",
+      "source1_name": "Doex LLC",
+      "source1_address": "5421 Lakeside Avenue, Crystal, MN",
+      "missed_id": "S3-607853162",
+      "missed_name": "Doex L.L.C. L.L.C.",
+      "missed_address": "",
+      "error_type": "False Negative (Missed Match)"
+    },
+    {
+      "source1_id": "S1-774386468",
+      "source1_name": "One Investments Private Limited",
+      "source1_address": "6A, Jesson Streetoff.Woods Road, Chennai 600 002, Chennai 600 002, Chennai, Tamil Nadu",
+      "missed_id": "S2-231589654",
+      "missed_name": "\u0b92\u0ba9\u0bcd \u0b87\u0ba9\u0bcd\u0bb5\u0bc6\u0bb8\u0bcd\u0b9f\u0bcd\u0bae\u0bc6\u0ba3\u0bcd\u0b9f\u0bcd\u0bb8\u0bcd \u0baa\u0bbf\u0bb0\u0bc8\u0bb5\u0bc7\u0b9f\u0bcd \u0bb2\u0bbf\u0bae\u0bbf\u0b9f\u0bc6\u0b9f\u0bcd",
+      "missed_address": "6A, JESSON STREETOFF.WOODS ROAD, CHENNAI 600 002, CHENNAI 600 002, CHENNAI, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1",
+      "error_type": "False Negative (Missed Match)"
+    },
+    {
+      "source1_id": "S1-774386468",
+      "source1_name": "One Investments Private Limited",
+      "source1_address": "6A, Jesson Streetoff.Woods Road, Chennai 600 002, Chennai 600 002, Chennai, Tamil Nadu",
+      "missed_id": "S2-489437730",
+      "missed_name": "\u0b92\u0ba9\u0bcd \u0b87\u0ba9\u0bcd\u0bb5\u0bc6\u0bb8\u0bcd\u0b9f\u0bcd\u0bae\u0bc6\u0ba3\u0bcd\u0b9f\u0bcd\u0bb8\u0bcd \u0baa\u0bbf\u0bb0\u0bc8\u0bb5\u0bc7\u0b9f\u0bcd \u0bb2\u0bbf\u0bae\u0bbf\u0b9f\u0bc6\u0b9f\u0bcd",
+      "missed_address": "6A, JESSON STREETOFF.WOODS ROAD, CHENNAI 600 002, CHENNAI 600 002, CHENNAI, Tamil Nadu",
+      "error_type": "False Negative (Missed Match)"
+    },
+    {
+      "source1_id": "S1-904543740",
+      "source1_name": "Technology Ambition Real Private Limited",
+      "source1_address": "501/Bldg 7, Sonam Madhuban Chs Ltd, Mira Bhayander Road, New Goldennest Complex, Thane, Maharashtra",
+      "missed_id": "S2-493621372",
+      "missed_name": "TECHNOLOGY AMBITION R\u00c9AL PRIVATE LIMITED",
+      "missed_address": "",
+      "error_type": "False Negative (Missed Match)"
+    }
+  ]
+}

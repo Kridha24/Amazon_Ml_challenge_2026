@@ -1,0 +1,249 @@
+{
+  "environment": {
+    "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "disk_total_bytes": 494332366848,
+    "disk_free_bytes": 315182108672,
+    "disk_used_bytes": 179150258176,
+    "disk_total_formatted": "460.38 GB",
+    "disk_free_formatted": "293.54 GB",
+    "disk_used_formatted": "166.85 GB",
+    "ram_total_bytes": 17179869184,
+    "ram_total_formatted": "16.00 GB",
+    "ram_available_estimated_bytes": 3695427584,
+    "ram_available_estimated_formatted": "3.44 GB",
+    "vm_stat_summary": {
+      "Pages free": 3811,
+      "Pages active": 222569,
+      "Pages inactive": 219290,
+      "Pages speculative": 2450,
+      "Pages throttled": 0,
+      "Pages wired down": 172415,
+      "Pages purgeable": 2,
+      "Pages copy-on-write": 31657359,
+      "Pages zero filled": 2216728643,
+      "Pages reactivated": 1018672545,
+      "Pages purged": 136217129,
+      "Pages stored in compressor": 1216563,
+      "Pages occupied by compressor": 386249,
+      "Pages tagged": 120836,
+      "Pages tagged resident": 87158,
+      "Pages tagged compressed": 33678,
+      "Pages tag-storage": 32768,
+      "Pages tag-storage holding tags": 4471,
+      "Pages tag-storage free": 149,
+      "Pages tag-storage non-tag pageable": 28062,
+      "Pages tag-storage non-tag wired": 86
+    }
+  },
+  "source_files": {
+    "train_source1.tsv": {
+      "file": "dataset/train/train_source1.tsv",
+      "size_bytes": 210069713,
+      "size_formatted": "200.34 MB",
+      "header": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "total_rows": 2206821,
+      "unique_entity_ids": 2206821,
+      "duplicate_entity_ids_count": 0,
+      "duplicate_entity_ids_samples": [],
+      "invalid_prefix_count": 0,
+      "invalid_prefix_samples": [],
+      "missing_fields": {},
+      "country_distribution": {
+        "US": 1323633,
+        "India": 883188
+      },
+      "audit_duration_seconds": 1.33
+    },
+    "train_source2.tsv": {
+      "file": "dataset/train/train_source2.tsv",
+      "size_bytes": 489301488,
+      "size_formatted": "466.63 MB",
+      "header": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "total_rows": 5034616,
+      "unique_entity_ids": 5034616,
+      "duplicate_entity_ids_count": 0,
+      "duplicate_entity_ids_samples": [],
+      "invalid_prefix_count": 0,
+      "invalid_prefix_samples": [],
+      "missing_fields": {
+        "business_address": 168967
+      },
+      "country_distribution": {
+        "India": 2017799,
+        "US": 3016817
+      },
+      "audit_duration_seconds": 3.85
+    },
+    "train_source3.tsv": {
+      "file": "dataset/train/train_source3.tsv",
+      "size_bytes": 503705637,
+      "size_formatted": "480.37 MB",
+      "header": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "total_rows": 5285603,
+      "unique_entity_ids": 5285603,
+      "duplicate_entity_ids_count": 0,
+      "duplicate_entity_ids_samples": [],
+      "invalid_prefix_count": 0,
+      "invalid_prefix_samples": [],
+      "missing_fields": {
+        "business_address": 175916
+      },
+      "country_distribution": {
+        "US": 3170056,
+        "India": 2115547
+      },
+      "audit_duration_seconds": 4.03
+    },
+    "test_source1.tsv": {
+      "file": "dataset/test/test_source1.tsv",
+      "size_bytes": 175022086,
+      "size_formatted": "166.91 MB",
+      "header": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "total_rows": 1732544,
+      "unique_entity_ids": 1732544,
+      "duplicate_entity_ids_count": 0,
+      "duplicate_entity_ids_samples": [],
+      "invalid_prefix_count": 0,
+      "invalid_prefix_samples": [],
+      "missing_fields": {},
+      "country_distribution": {
+        "US": 663106,
+        "France": 259452,
+        "India": 809986
+      },
+      "audit_duration_seconds": 1.15
+    },
+    "test_source2.tsv": {
+      "file": "dataset/test/test_source2.tsv",
+      "size_bytes": 509456422,
+      "size_formatted": "485.86 MB",
+      "header": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "total_rows": 4887273,
+      "unique_entity_ids": 4887273,
+      "duplicate_entity_ids_count": 0,
+      "duplicate_entity_ids_samples": [],
+      "invalid_prefix_count": 0,
+      "invalid_prefix_samples": [],
+      "missing_fields": {
+        "business_address": 129408
+      },
+      "country_distribution": {
+        "India": 2312565,
+        "France": 703378,
+        "US": 1871330
+      },
+      "audit_duration_seconds": 3.69
+    },
+    "test_source3.tsv": {
+      "file": "dataset/test/test_source3.tsv",
+      "size_bytes": 506002772,
+      "size_formatted": "482.56 MB",
+      "header": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "total_rows": 5082316,
+      "unique_entity_ids": 5082316,
+      "duplicate_entity_ids_count": 0,
+      "duplicate_entity_ids_samples": [],
+      "invalid_prefix_count": 0,
+      "invalid_prefix_samples": [],
+      "missing_fields": {
+        "business_address": 136098
+      },
+      "country_distribution": {
+        "India": 2405000,
+        "France": 731615,
+        "US": 1945701
+      },
+      "audit_duration_seconds": 3.86
+    }
+  },
+  "ground_truth": {
+    "file": "dataset/train/train_ground_truth.tsv",
+    "size_bytes": 127015583,
+    "size_formatted": "121.13 MB",
+    "header": [
+      "source1_entity_id",
+      "matched_entity_ids"
+    ],
+    "total_rows": 2206821,
+    "unique_s1_ids": 2206821,
+    "duplicate_s1_rows": 0,
+    "empty_matches_count (singletons)": 123247,
+    "empty_matches_percentage": 5.58,
+    "intra_list_duplicates_count": 0,
+    "total_unique_s2_matched": 3693619,
+    "total_unique_s3_matched": 3944746,
+    "invalid_prefix_matches_count": 0,
+    "match_cardinality_distribution": {
+      "0": 123247,
+      "1": 119157,
+      "2": 375212,
+      "3": 530841,
+      "4": 484115,
+      "5": 321957,
+      "6": 164868,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "sources_breakdown": {
+      "both_S2_and_S3": 1776047,
+      "S3_only": 164498,
+      "singleton_zero_matches": 123247,
+      "S2_only": 143029
+    },
+    "audit_duration_seconds": 3.42
+  },
+  "cross_references": {
+    "gt_s1_total": 2206821,
+    "train_source1_total_rows": 2206821,
+    "gt_s1_missing_from_source1_count": 0,
+    "gt_s1_missing_samples": [],
+    "gt_s2_unique_matched": 3693619,
+    "train_source2_total_rows": 5034616,
+    "gt_s2_missing_from_source2_count": 0,
+    "gt_s2_missing_samples": [],
+    "train_source2_unmatched_singletons": 1340997,
+    "gt_s3_unique_matched": 3944746,
+    "train_source3_total_rows": 5285603,
+    "gt_s3_missing_from_source3_count": 0,
+    "gt_s3_missing_samples": [],
+    "train_source3_unmatched_singletons": 1340857,
+    "cross_check_duration_seconds": 4.81
+  },
+  "total_audit_runtime_seconds": 26.84
+}

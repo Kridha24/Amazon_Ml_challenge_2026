@@ -1,0 +1,107 @@
+# ==========================================
+# Data files & Raw Datasets (Strictly Excluded)
+# ==========================================
+dataset/
+dataset/**
+data/
+data/**
+*.tsv
+*.csv
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+student_resource/
+
+# ==========================================
+# Model Weights & Serialized Binaries
+# ==========================================
+*.joblib
+*.pkl
+*.pickle
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+experiments/models/*.joblib
+experiments/v1/models/*.joblib
+experiments/v2/models/*.joblib
+
+# ==========================================
+# Execution Runs, Outputs & Caches
+# ==========================================
+cache/
+cache/**
+output/
+output/**
+runs/
+runs/**
+wandb/
+.extracted_*
+*.part
+__MACOSX/
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Jupyter & Colab Checkpoints
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Environment Variables, Secrets & Credentials
+# ==========================================
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+credentials.json
+client_secret*.json
+secrets/
+
+# ==========================================
+# OS & IDE Specific
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

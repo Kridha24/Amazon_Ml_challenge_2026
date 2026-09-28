@@ -1,0 +1,85 @@
+{
+  "benchmark_label": "Sampled-Pool Entity Resolution Benchmark (9,000 S1 Entities)",
+  "hardware_environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python_version": "3.9.6",
+    "peak_memory_mb": 1294.8
+  },
+  "stage_runtimes_seconds": {
+    "stratified_sampling_s1": 4.05,
+    "streaming_pool_extraction": 22.03,
+    "blocking_and_candidate_generation": 1.03,
+    "feature_extraction": 1.09,
+    "model_training": 0.57,
+    "threshold_tuning": 93.87,
+    "holdout_evaluation": 82.98,
+    "total_experiment_runtime": 205.63
+  },
+  "sample_sizes": {
+    "train_s1": 4999,
+    "tune_s1": 2000,
+    "holdout_s1": 2000,
+    "train_candidate_pool": 67309,
+    "tune_candidate_pool": 26899,
+    "holdout_candidate_pool": 26924
+  },
+  "candidate_recall": {
+    "tuning_r_at_20": 0.723,
+    "tuning_r_at_50": 0.7575,
+    "holdout_r_at_20": 0.7172,
+    "holdout_r_at_50": 0.7532
+  },
+  "tuning_results": {
+    "simple_baseline": {
+      "frozen_threshold": 0.62,
+      "tuning_macro_f05": 0.745
+    },
+    "classifier": {
+      "frozen_threshold": 0.78,
+      "tuning_macro_f05": 0.8862
+    }
+  },
+  "holdout_results": {
+    "simple_baseline": {
+      "macro_f05": 0.7348,
+      "macro_precision": 0.8354,
+      "macro_recall": 0.567,
+      "singleton_accuracy": 0.8571,
+      "country_breakdown": {
+        "India": {
+          "total_entities": 801,
+          "macro_f05": 0.6707,
+          "singleton_accuracy": 0.7778,
+          "singletons_total": 45
+        },
+        "US": {
+          "total_entities": 1199,
+          "macro_f05": 0.7776,
+          "singleton_accuracy": 0.9104,
+          "singletons_total": 67
+        }
+      }
+    },
+    "classifier": {
+      "macro_f05": 0.8831,
+      "macro_precision": 0.9486,
+      "macro_recall": 0.7559,
+      "singleton_accuracy": 0.9911,
+      "country_breakdown": {
+        "India": {
+          "total_entities": 801,
+          "macro_f05": 0.81,
+          "singleton_accuracy": 0.9778,
+          "singletons_total": 45
+        },
+        "US": {
+          "total_entities": 1199,
+          "macro_f05": 0.932,
+          "singleton_accuracy": 1.0,
+          "singletons_total": 67
+        }
+      }
+    }
+  }
+}

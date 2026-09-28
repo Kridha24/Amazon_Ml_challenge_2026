@@ -1,0 +1,46 @@
+{
+  "Route 0: Prefix & Sorted Tokens Only (V1 Baseline)": {
+    "non_singleton_evaluated": 1888,
+    "total_true_matches": 6899,
+    "average_candidates_per_entity": 21.54,
+    "p95_candidates_per_entity": 50.0,
+    "recall_by_k": {
+      "recall_at_20": 0.7278,
+      "recall_at_50": 0.7558,
+      "recall_at_100": 0.7558
+    }
+  },
+  "Route 1: Baseline + Compact Names": {
+    "non_singleton_evaluated": 1888,
+    "total_true_matches": 6899,
+    "average_candidates_per_entity": 21.75,
+    "p95_candidates_per_entity": 50.0,
+    "recall_by_k": {
+      "recall_at_20": 0.7614,
+      "recall_at_50": 0.7955,
+      "recall_at_100": 0.7955
+    }
+  },
+  "Route 2: Baseline + Compact + DBA Aliases": {
+    "non_singleton_evaluated": 1888,
+    "total_true_matches": 6899,
+    "average_candidates_per_entity": 21.75,
+    "p95_candidates_per_entity": 50.0,
+    "recall_by_k": {
+      "recall_at_20": 0.7614,
+      "recall_at_50": 0.7955,
+      "recall_at_100": 0.7955
+    }
+  },
+  "Route 3: Full V2 (Baseline + Compact + DBA + Locality PIN Fallback)": {
+    "non_singleton_evaluated": 1888,
+    "total_true_matches": 6899,
+    "average_candidates_per_entity": 21.76,
+    "p95_candidates_per_entity": 50.0,
+    "recall_by_k": {
+      "recall_at_20": 0.7621,
+      "recall_at_50": 0.7963,
+      "recall_at_100": 0.7963
+    }
+  }
+}
